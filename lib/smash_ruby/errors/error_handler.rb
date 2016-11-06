@@ -5,9 +5,9 @@ module SmashRuby
     module ErrorHandler
       def self.build_error(model, request, status)
         if status == 404
-          Errors::NotFoundError.new(model, request)
+          Errors::NotFoundError.new(model.model_name, request)
         else
-          Errors::UnknownError.new(model, request)
+          Errors::UnknownError.new(model.model_name, request)
         end
       end
     end

@@ -6,13 +6,14 @@ module SmashRuby
       attr_reader :model, :request
 
       def initialize(model, request)
-        @model = model.model_name
+        @model = model
         @request = request
       end
 
       def to_json
         {
           model: @model,
+          status: 404,
           error: "Not found with request: #{@request}"
         }.to_json
       end
