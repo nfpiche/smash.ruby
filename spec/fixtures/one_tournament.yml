@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.smash.gg/tournament/smash-summit-3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Date:
+      - Sun, 06 Nov 2016 16:36:41 GMT
+      Server:
+      - nginx/1.6.2 (Ubuntu)
+      X-Powered-By:
+      - HHVM/3.15.2
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 a223062e33743b5c4ba88d0314bb704c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ONNDCPS3acWkFva5ultU9gu0C2JnRsl0e12B7z3l4D3r83gAs2ON2Q==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"entities":{"tournament":{"id":4148,"seriesId":null,"ownerId":1249,"state":1,"progressMeter":0,"name":"Smash
+        Summit 3","slug":"tournament\/smash-summit-3","shortSlug":null,"venueFee":null,"processingFee":null,"tiebreakOrder":null,"timezone":"America\/Los_Angeles","private":false,"published":true,"testMode":false,"publicSeeding":false,"tournamentType":1,"hasOnlineEvents":false,"approved":true,"startAt":1478156400,"endAt":1478415600,"startedAt":null,"completedAt":null,"registrationClosesAt":null,"eventRegistrationClosesAt":null,"teamCreationClosesAt":null,"stripeMode":null,"paypalMode":null,"paypalApp":"smashgg","links":[],"venueName":"Test","venueAddress":"Test","region":"67","hashtag":null,"showCity":null,"attendeeLocationInfo":3,"attendeeContactInfo":1,"attendeeFieldConfig":{"nameFirst":{"visible":true,"required":true},"nameLast":{"visible":true,"required":true},"phoneNumber":{"visible":false,"required":false}},"attendeeRequirements":null,"notifyAdmins":false,"publicAttendees":true,"hideAdmins":false,"videoUrl":"https:\/\/www.youtube.com\/watch?v=k-pr2-h2mM0","details":null,"registrationMarkdown":null,"gettingThere":null,"prizes":null,"rules":null,"contactInfo":null,"contactEmail":null,"contactTwitter":null,"contactPhone":null,"currency":"USD","onsitePaymentMode":null,"stripePublishableKey":null,"paypalPayerId":null,"customEmailText":null,"registrationOptions":[],"limitsByType":[],"publishing":{"publish":true,"registration":false,"attendees":true,"seeding":{"75752":true,"75753":true,"84865":false,"84866":true,"84867":true,"84868":true,"85364":true},"bracket":{"75752":true,"75753":true,"84865":false,"84866":true,"84867":true,"84868":true,"85364":true},"live":true,"fantasy":true,"testmode":false,"pools_ordering":"alphabetical"},"trackingPixels":[],"generatedTabs":{"shop":{"shop\/compendium-12":{"name":"Compendium","adminOnly":false}}},"defaultTab":"shop","images":[{"id":203445,"width":280,"height":280,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-2caf31bbd169b7251d59de53624622d6.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203446,"width":40,"height":40,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-cd8d37acc88d123212635e875919076b.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203447,"width":4000,"height":4000,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-d6527f477f3accd1264a242e3da53582.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203448,"width":1200,"height":675,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-f0594c923e3f05095f7f70bda6bc18ce.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203449,"width":300,"height":168,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-17c8af2fcce52d799aef9290002d695b.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203450,"width":1204,"height":678,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-69323d25d5f16476f2ef5021acf8b5e8.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null}],"scheduleId":24718,"expand":[],"userData":[],"regionDisplayName":"CA
+        (SoCal)","onlineEvents":[],"taskEvents":[],"slugs":["smash-summit-3"],"permissionType":"tournament","supportsPayPal":false},"stream":[{"id":26581,"eventId":null,"tournamentId":4148,"numSetups":1,"identifier":"1","enabled":true,"streamName":"beyondthesummit","streamType":1,"streamTypeId":null,"iconUrl":null,"streamSource":1,"isOnline":true,"followerCount":348639,"streamStatus":"Smash
+        Summit 3 - Day 1","streamGame":"Super Smash Bros. Melee","streamLogo":"https:\/\/static-cdn.jtvnw.net\/jtv_user_pictures\/beyondthesummit-profile_image-d3d31e2a3b0f1e0a-300x300.jpeg","twitchHandle":null}]},"result":4148,"resultEntity":"tournament","actionRecords":[]}'
+    http_version: 
+  recorded_at: Sun, 06 Nov 2016 16:36:41 GMT
+recorded_with: VCR 3.0.3
