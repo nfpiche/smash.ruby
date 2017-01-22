@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.smash.gg/tournament/smash-summit-3
+    uri: https://api.smash.gg/tournament/the-big-house-6
     body:
       encoding: US-ASCII
       string: ''
@@ -27,7 +27,7 @@ http_interactions:
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Date:
-      - Sun, 06 Nov 2016 16:36:41 GMT
+      - Sun, 22 Jan 2017 15:30:37 GMT
       Server:
       - nginx/1.6.2 (Ubuntu)
       X-Powered-By:
@@ -37,15 +37,73 @@ http_interactions:
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 a223062e33743b5c4ba88d0314bb704c.cloudfront.net (CloudFront)
+      - 1.1 73d94d4097fb0aad5d6728fe73fe9cc0.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - ONNDCPS3acWkFva5ultU9gu0C2JnRsl0e12B7z3l4D3r83gAs2ON2Q==
+      - "-Rw-mecy16aEx4TzMUShCT9Rl29vpNFhDBYPtp0-JlS3pbv-vthzqA=="
     body:
       encoding: ASCII-8BIT
-      string: '{"entities":{"tournament":{"id":4148,"seriesId":null,"ownerId":1249,"state":1,"progressMeter":0,"name":"Smash
-        Summit 3","slug":"tournament\/smash-summit-3","shortSlug":null,"venueFee":null,"processingFee":null,"tiebreakOrder":null,"timezone":"America\/Los_Angeles","private":false,"published":true,"testMode":false,"publicSeeding":false,"tournamentType":1,"hasOnlineEvents":false,"approved":true,"startAt":1478156400,"endAt":1478415600,"startedAt":null,"completedAt":null,"registrationClosesAt":null,"eventRegistrationClosesAt":null,"teamCreationClosesAt":null,"stripeMode":null,"paypalMode":null,"paypalApp":"smashgg","links":[],"venueName":"Test","venueAddress":"Test","region":"67","hashtag":null,"showCity":null,"attendeeLocationInfo":3,"attendeeContactInfo":1,"attendeeFieldConfig":{"nameFirst":{"visible":true,"required":true},"nameLast":{"visible":true,"required":true},"phoneNumber":{"visible":false,"required":false}},"attendeeRequirements":null,"notifyAdmins":false,"publicAttendees":true,"hideAdmins":false,"videoUrl":"https:\/\/www.youtube.com\/watch?v=k-pr2-h2mM0","details":null,"registrationMarkdown":null,"gettingThere":null,"prizes":null,"rules":null,"contactInfo":null,"contactEmail":null,"contactTwitter":null,"contactPhone":null,"currency":"USD","onsitePaymentMode":null,"stripePublishableKey":null,"paypalPayerId":null,"customEmailText":null,"registrationOptions":[],"limitsByType":[],"publishing":{"publish":true,"registration":false,"attendees":true,"seeding":{"75752":true,"75753":true,"84865":false,"84866":true,"84867":true,"84868":true,"85364":true},"bracket":{"75752":true,"75753":true,"84865":false,"84866":true,"84867":true,"84868":true,"85364":true},"live":true,"fantasy":true,"testmode":false,"pools_ordering":"alphabetical"},"trackingPixels":[],"generatedTabs":{"shop":{"shop\/compendium-12":{"name":"Compendium","adminOnly":false}}},"defaultTab":"shop","images":[{"id":203445,"width":280,"height":280,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-2caf31bbd169b7251d59de53624622d6.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203446,"width":40,"height":40,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-cd8d37acc88d123212635e875919076b.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203447,"width":4000,"height":4000,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-d6527f477f3accd1264a242e3da53582.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203448,"width":1200,"height":675,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-f0594c923e3f05095f7f70bda6bc18ce.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203449,"width":300,"height":168,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-17c8af2fcce52d799aef9290002d695b.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":203450,"width":1204,"height":678,"ratio":1.78,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/4148\/image-69323d25d5f16476f2ef5021acf8b5e8.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null}],"scheduleId":24718,"expand":[],"userData":[],"regionDisplayName":"CA
-        (SoCal)","onlineEvents":[],"taskEvents":[],"slugs":["smash-summit-3"],"permissionType":"tournament","supportsPayPal":false},"stream":[{"id":26581,"eventId":null,"tournamentId":4148,"numSetups":1,"identifier":"1","enabled":true,"streamName":"beyondthesummit","streamType":1,"streamTypeId":null,"iconUrl":null,"streamSource":1,"isOnline":true,"followerCount":348639,"streamStatus":"Smash
-        Summit 3 - Day 1","streamGame":"Super Smash Bros. Melee","streamLogo":"https:\/\/static-cdn.jtvnw.net\/jtv_user_pictures\/beyondthesummit-profile_image-d3d31e2a3b0f1e0a-300x300.jpeg","twitchHandle":null}]},"result":4148,"resultEntity":"tournament","actionRecords":[]}'
+      string: '{"entities":{"tournament":{"id":1906,"seriesId":null,"ownerId":51,"state":1,"progressMeter":0,"name":"The
+        Big House 6","slug":"tournament\/the-big-house-6","shortSlug":"tbh6","venueFee":null,"processingFee":5,"tiebreakOrder":null,"timezone":"America\/New_York","private":false,"published":true,"testMode":false,"publicSeeding":false,"tournamentType":1,"hasOnlineEvents":false,"includeQRCode":false,"approved":true,"startAt":1475852400,"endAt":1476068400,"startedAt":null,"completedAt":null,"registrationClosesAt":1476071999,"eventRegistrationClosesAt":1474171199,"teamCreationClosesAt":1474257599,"stripeMode":"live","paypalMode":"live","paypalApp":"default","city":"Dearborn","addrState":"MI","postalCode":"48126","countryCode":"US","mapsPlaceId":"ChIJO1T65Qc1O4gRJYeqjcDI7ZU","lat":42.3122619,"lng":-83.2178603,"links":{"facebook":"https:\/\/www.facebook.com\/events\/154420391655954\/","smashboards":"http:\/\/smashboards.com\/threads\/oct-7-2016-the-big-house-6-dearborn-mi.440028\/"},"venueName":"Edward
+        Hotel & Conference Center","venueAddress":"600 Town Center Dr, Dearborn, MI
+        48126, USA","region":"23","hashtag":"TBH6","showCity":null,"attendeeLocationInfo":6,"attendeeContactInfo":1,"attendeeFieldConfig":{"nameFirst":{"visible":true,"required":true},"nameLast":{"visible":true,"required":true},"phoneNumber":{"visible":false,"required":false},"countryId":{"visible":true,"required":true},"stateId":{"visible":true,"required":true},"city":{"visible":true,"required":true},"zipcode":{"visible":true,"required":true}},"attendeeRequirements":null,"notifyAdmins":true,"publicAttendees":true,"hideAdmins":false,"videoUrl":"https:\/\/www.youtube.com\/watch?v=Ja8JLJGelQQ","details":"The
+        Big House returns October 7-9, 2016!\n\n\n\n**What is The Big House?**\n\nThe
+        Big House is the largest Super Smash Brothers tournament series in the Midwest.
+        Since 2011, it has been the go-to annual event for Smashers and spectators
+        not only in the Midwest, but across the world. Over three days, The Big House
+        runs a singles (1v1) event, doubles (2v2) event, and various exhibitions for
+        both Super Smash Bros. Melee and Super Smash Bros. for Wii U.\n\n\n\n**Why
+        should you attend?**\n* Amazing venue \u2013 hotel space for 3000+ attendees,
+        300+ setups, main stage, and projector screens\n* Travel convenience \u2013
+        inexpensive transportation between the venue and DTW airport, and free parking
+        on-site\n* Great TO staff \u2013 an established reputation for delivering
+        high-quality tournament organization\n* Player experience \u2013 opportunity
+        to officially compete in multiple games and events\n* Spectator experience
+        \u2013 friendlies, exhibitions, and main stage viewing for spectators all
+        weekend\n* Big spotlight \u2013 professionally broadcast on Smash\u2019s premiere
+        livestream platforms\n* Storied history \u2013 past attendance that includes
+        Mango, Armada, PPMD, Mew2King, Hungrybox, Leffen, ZeRo, Nairo, Anti, dabuz,
+        and more\n* Michigan community \u2013 one of the biggest and most active Super
+        Smash Bros. scenes in the world\n\n\n\n**Quick Links**\n\nHotel Room Reservations:
+        [available here](http:\/\/www.umsmash.com\/location\/#housing)\n\nArtist Alley
+        Applications: [available here](https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeyAoiuLj6QMOpXrJuuE9DMQoOBS-eOf4lGGfKMsiVO4TJVpA\/viewform)\n\nMedia
+        Badge Applications: [available here](https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSdPFQLj5ExYq5CZ770dciOPcMsHCsoSZUht9tdaWePPSAdWSQ\/viewform?usp=send_form)\n\nVolunteer
+        Applications: [available here](https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSe0tMoCfmZfUAuHdOaltNPHQj4lEHA2S4p2jPBUplF3W0UrOA\/viewform?usp=send_form)","registrationMarkdown":"Online
+        registration is required for both players and spectators who wish to attend.
+        There are no transactions at-the-door, and registrations are not refundable
+        or transferable. \n\n**Events:**\n\n* Super Smash Bros. Melee 1v1\n* Super
+        Smash Bros. for Wii U 1v1\n* Super Smash Bros. Melee 2v2\n* Super Smash Bros.
+        for Wii U 2v2\n\n**Registration Caps:**\n\n* 2048 Melee 1v1 entrants\n* 2048
+        Wii U 1v1 entrants\n* 512 Melee 2v2 entrants\n* 512 Wii U 2v2 entrants\n\nDue
+        to time and resource considerations, entries are capped at the numbers above.
+        Registration will close immediately for each event after their respective
+        caps are reached.\n\n**Upcoming Key Dates:**\n\nSeptember 1: Venue fee increases\n\nSeptember
+        17: Registration closes\n\nSeptember 18: Teammate matching deadline\n\nSpectator
+        registration remains available online until tourney weekend.","gettingThere":"http:\/\/www.umsmash.com\/location\/","prizes":"http:\/\/www.umsmash.com\/rules\/#payout","rules":"http:\/\/www.umsmash.com\/rules\/","contactInfo":"http:\/\/www.umsmash.com\/contact\/","emailInstructions":null,"emailDirections":null,"qrCodeRedirect":null,"contactEmail":null,"contactTwitter":"TheBigHouseSSB","contactPhone":null,"currency":"USD","onsitePaymentMode":null,"stripePublishableKey":"pk_live_n68FA2nGgw4bRR6ZkVvzXoOp","paypalPayerId":"4GDVRZGHP6H3J","customEmailText":null,"registrationOptions":{"1906":{"id":1906,"optionType":"tournament","name":"Venue
+        Fee","description":"Grants you access to all three ballrooms at the venue
+        (Melee, Wii U, friendlies) for all three days of the weekend (Friday, Saturday,
+        Sunday) and the ability to compete in any of the four official tourney events
+        (Melee Singles, Wii U Singles, Melee Doubles, Wii U Doubles).\n\n**Key Dates:**\n\n*
+        July 1: Registration opens\n* July 2: Early bird t-shirt promotion closes\n*
+        August 1: Venue fee increases\n* September 1: Venue fee increases\n* September
+        15: Registration closes\n\nSpectator passes will be available later in the
+        registration period.","fieldType":"checkbox","fee":55,"required":true},"12830":{"id":12830,"limit":2048,"optionType":"event","name":"Melee
+        Singles","fieldType":"checkbox","fee":10,"required":false},"12831":{"id":12831,"limit":512,"optionType":"event","name":"Melee
+        Doubles","fieldType":"checkbox","fee":10,"required":false},"12832":{"id":12832,"limit":2048,"optionType":"event","name":"Wii
+        U Singles","fieldType":"checkbox","fee":10,"required":false},"12833":{"id":12833,"limit":512,"optionType":"event","name":"Wii
+        U Doubles","fieldType":"checkbox","fee":10,"required":false},"6":{"id":6,"optionType":"additional","name":"Contributor
+        Badge","description":"Receive a custom TBH6 badge with your gamertag on it
+        shipped to you before the event, so you can skip the check-in lines during
+        tourney weekend. This option is only available before August 1st.","fieldType":"checkbox","fee":10,"required":false},"620":{"id":620,"name":"FREE
+        Early-Bird T-Shirt","optionType":"product","fieldType":"product"},"617":{"id":617,"name":"The
+        Big House Custom Hoodie","optionType":"product","fieldType":"product"},"621":{"id":621,"optionType":"additional","name":"Favorite
+        non-Smash hobby? (optional)","description":"Tell us about a non-Smash hobby!
+        This is for your player profile in case you''re featured on one of our stream
+        broadcasts on tourney weekend.","fieldType":"text","required":false},"622":{"id":622,"optionType":"agreement","fieldType":"agreement","fee":0,"required":false,"name":"TBH6
+        Terms of Service","agreementType":"file","url":"https:\/\/smashgg-images.s3.amazonaws.com\/images\/tournament\/1906\/agreement-622-e0d625f2f6876ccd11c5ccaee97c985e.pdf"},"623":{"id":623,"optionType":"additional","name":"Favorite
+        Smash player? (optional)","description":"Tell us who your favorite Smash player
+        is! This is for your player profile in case you''re featured on one of our
+        stream broadcasts on tourney weekend.","fieldType":"text","required":false}},"limitsByType":[],"publishing":{"publish":true,"registration":true,"attendees":true,"seeding":{"76014":true,"76015":true,"76016":true,"76017":true,"76018":true,"76019":true,"76020":true,"76021":true,"76022":true,"76023":true,"76024":true,"76025":true,"76988":true,"76989":true,"77492":true},"bracket":{"76014":true,"76015":true,"76016":true,"76017":true,"76018":true,"76019":true,"76020":true,"76021":true,"76022":true,"76023":true,"76024":true,"76025":true,"76988":true,"76989":true,"77492":true},"live":true,"fantasy":true,"testmode":false,"pools_ordering":"alphabetical"},"trackingPixels":[],"generatedTabs":{"shop":{"shop\/compendium-5":{"name":"Compendium","adminOnly":false,"customTab":"voting"}},"link":{"events\/own-the-house\/details":{"name":"Own
+        the House"}}},"defaultTab":"events","images":[{"id":71869,"width":280,"height":280,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-7adb7dab2f4e1fd7c3fa6fefcd052b5c.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":71870,"width":40,"height":40,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-ac1af496cd452387c1e9956ba3996705.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":71871,"width":1458,"height":1458,"ratio":1,"type":"profile","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-404b5bf88e1c820b2bfdd7d6b79f756c.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":125948,"width":1200,"height":666,"ratio":1.8,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-ed71df872aecc94490145e14fc3867e7.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":125949,"width":300,"height":166,"ratio":1.8,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-bc8311b2e2eaf41cedcc264fa6985de6.png","isOriginal":false,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null},{"id":125950,"width":1600,"height":889,"ratio":1.8,"type":"banner","url":"https:\/\/images.smash.gg\/images\/tournament\/1906\/image-e8402c4d4320e66a1ae0f0b306cdfe39.png","isOriginal":true,"entity":null,"entityId":null,"uploadedBy":null,"createdAt":null,"updatedAt":null}],"scheduleId":40125,"expand":[],"userData":[],"regionDisplayName":"MI","onlineEvents":[],"hasTaskEvents":true,"taskEvents":{"19220":true},"slugs":["the-big-house-6"],"permissionType":"tournament","supportsPayPal":true}},"result":1906,"resultEntity":"tournament","actionRecords":[]}'
     http_version: 
-  recorded_at: Sun, 06 Nov 2016 16:36:41 GMT
+  recorded_at: Sun, 22 Jan 2017 15:30:37 GMT
 recorded_with: VCR 3.0.3
