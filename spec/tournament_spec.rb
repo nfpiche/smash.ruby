@@ -82,7 +82,10 @@ describe SmashRuby::Tournament do
         VCR.use_cassette('tournament_phases') do
           VCR.use_cassette('complete_tournament_phase_results') do
             result = tournament.fetch_complete_results_for_event('melee-singles')
-            expect(result.size).to eql(1557)
+            expect(result.size).to eql(1563)
+            expect(tournament.entrants).to eql(result.size)
+            expect(result.first.tag).to eql('Mang0')
+            expect(result.last.tag).to eql('Link Master 3000')
           end
         end
       end

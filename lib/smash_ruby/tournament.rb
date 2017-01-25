@@ -10,7 +10,7 @@ module SmashRuby
   class Tournament
     BASE_URL = 'https://api.smash.gg/tournament'.freeze
     M = Dry::Monads
-    attr_reader :id, :name, :start_date, :end_date, :venue_name, :venue_address, :slug
+    attr_reader :id, :name, :start_date, :end_date, :venue_name, :venue_address, :slug, :entrants, :sets
 
     def initialize(attributes)
       @id = attributes.dig('id')
@@ -68,11 +68,12 @@ module SmashRuby
         entrants.each do |e|
           standings.each do |s|
             if s.dig('id').include? e.dig('id').to_s
-              players << SmashRuby::Player.new(e.merge(s))
+              players << SmashRuby::Player.new(s.merge(e))
             end
           end
         end
-        players.sort_by { |p| p.placement }
+
+        players
       end.value
     end
 
@@ -83,7 +84,9 @@ module SmashRuby
         players << fetch_phase_results(event.to_sym, phase)
       end
 
-      dedupe_and_combine_players(players)
+      results = dedupe_and_combine_players(players)
+      build_sets(results)
+      results.values.sort_by(&:placement)
     end
 
     private
@@ -129,15 +132,25 @@ module SmashRuby
       clean_players = {}
 
       players.flatten.each do |p|
-        if clean_players[p.name].nil?
-          clean_players[p.name] = p
+        if clean_players[p.id].nil?
+          clean_players[p.id] = p
         else
-          clean_players[p.name].losses += p.losses
-          clean_players[p.name].losses.flatten!
+          clean_players[p.id].losses += p.losses
+          clean_players[p.id].losses.flatten!
         end
       end
 
-      clean_players.values
+      @entrants = clean_players.size
+      clean_players
+    end
+
+    def build_sets(results)
+      @sets ||= []
+      results.each do |k, v|
+        v.losses.each do |l|
+          @sets << { player1: v.id, player2: l, winner: l, tournament: slug }
+        end
+      end
     end
   end
 end
