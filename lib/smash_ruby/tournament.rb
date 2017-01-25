@@ -4,6 +4,8 @@ require 'json'
 require_relative './request'
 require_relative './phase'
 require_relative './player'
+require_relative './set'
+require_relative './set_service'
 
 
 module SmashRuby
@@ -145,12 +147,7 @@ module SmashRuby
     end
 
     def build_sets(results)
-      @sets ||= []
-      results.each do |k, v|
-        v.losses.each do |l|
-          @sets << { player1: v.id, player2: l, winner: l, tournament: slug }
-        end
-      end
+      @sets ||= SmashRuby::SetService.perform(results, slug)
     end
   end
 end
